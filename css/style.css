@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background: #F3E0E2;
+}
+
+form {
+	display: flex;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form-container-1 {
+	width: 65%;
+	padding: 3rem;
+	background: #fff;
+	position: relative;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 2;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px;
+}
+
+.form-container-1 h1 {
+	font-size: 2.4rem;
+	letter-spacing: 2px;
+	font-weight: 900;
+	margin-bottom: 3rem;
+}
+
+/* icons */
+
+.icons {
+	color: #333333;
+	margin-bottom: 3rem;
+}
+
+.icons i {
+	border: 1px solid #DFDFDF;
+	border-radius: 50%;
+	font-size: 1.4rem;
+}
+
+.fa-facebook {
+	padding: 0.5rem 0.8rem;
+}
+
+.fa-twitter {
+	padding: 0.5rem;
+}
+
+.account-used {
+	margin-bottom: 0.2rem;
+}
+
+.user-input, .password-input {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+input {
+	width: 100%;
+	padding: 0.8rem;
+	border: none;
+	background: #EEEEEE;
+}
+
+.form-container-2 {
+	width: 50%;
+}
+
+.forgot-pass a {
+	color: #333;
+	text-decoration: none;
+}
+
+.forgot-pass {
+	margin-bottom: 1.5rem;
+}
+
+.login-btn-container a {
+	text-decoration: none;
+	background: #FF4B2B;
+	color: #fff;
+	border-radius: 40px;
+	padding: 0.7rem 2.7rem;
+}
