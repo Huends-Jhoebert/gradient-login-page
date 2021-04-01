@@ -11,24 +11,28 @@ body {
 
 form {
 	display: flex;
-	width: 50%;
+	width: 70%;
 	margin: 0 auto;
+	max-width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .form-container-1 {
-	width: 65%;
+	width: 50%;
 	padding: 3rem;
 	background: #fff;
-	position: relative;
-	margin: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	z-index: 2;
-	border-bottom-left-radius: 10px;
-	border-top-left-radius: 10px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .form-container-1 h1 {
@@ -75,10 +79,6 @@ input {
 	background: #EEEEEE;
 }
 
-.form-container-2 {
-	width: 50%;
-}
-
 .forgot-pass a {
 	color: #333;
 	text-decoration: none;
@@ -94,4 +94,26 @@ input {
 	color: #fff;
 	border-radius: 40px;
 	padding: 0.7rem 2.7rem;
+}
+
+.login-btn-container a:hover {
+	background: #FF416A;
+}
+
+.form-container-2 {
+	width: 50%;
+	padding: 2rem;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: #fff;
+	width: 50%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 2;
+	background-image: linear-gradient(to right, #FF4B2B, #FF4265);
+	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
 }
