@@ -18,6 +18,7 @@ form {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	box-shadow: 0 0 15px #333;
 }
 
 .form-container-1 {
@@ -30,9 +31,8 @@ form {
 	align-items: center;
 	text-align: center;
 	z-index: 2;
-	border-bottom-left-radius: 15px;
-	border-top-left-radius: 15px;
-	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
+	/* border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px; */
 }
 
 .form-container-1 h1 {
@@ -103,8 +103,8 @@ input {
 .form-container-2 {
 	width: 50%;
 	padding: 2rem;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
+	/* border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px; */
 	color: #fff;
 	width: 50%;
 	position: relative;
@@ -115,5 +115,50 @@ input {
 	text-align: center;
 	z-index: 2;
 	background-image: linear-gradient(to right, #FF4B2B, #FF4265);
-	box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	form {
+		width: 90%;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	form {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	form {
+		width: 90%;
+	}
+	.form-container-1 {
+		padding: 2rem;
+	}
+	.form-container-1 h1 {
+		font-size: 1.5rem;
+	}
+	.icons i {
+		font-size: 1rem;
+	}
+	.account-used {
+		font-size: 0.6rem;
+	}
+	input {
+		padding: 0.5rem;
+	}
+	.forgot-pass {
+		font-size: 0.6rem;
+	}
+	.login-btn-container a {
+		padding: 0.5rem 1.5rem;
+		font-size: 0.7rem;
+	}
+	.form-container-2 h1 {
+		font-size: 1.1rem;
+	}
+	.form-container-2 p {
+		font-size: 0.8rem;
+	}
 }
